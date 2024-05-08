@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+* {
+  .poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+.over {
+  overflow-y: hidden;
+}
+.Nav {
+  background-color: #6f42c1;
+  transition: backdrop-filter 0.6s, box-shadow 0.6s;
+}
+.oke {
+  color: #a79999;
+}
+
+/* .first {
+  background-color: black;
+  background-size: cover;
+  background-position: 50%;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  color: white; */
+/* z-index: 9999; */
+/* transition: all 1.5s;
+  -webkit-transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  -ms-transition: all 1.5s;
+  -o-transition: all 1.5s; */
+
+/* .AfterButton {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  margin-left: 1500px; */
+/* z-index: 9999; */
+/* transition: all 1.5s; */
+
+.btn:hover {
+  background-color: rgb(193, 193, 226);
+}
+
+.first h3 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+/* .AfterNav {
+  color: black;
+  transition: backdrop-filter 0.6s, box-shadow 0.6s;
+  box-shadow: 0px 5px 15px black;
+  backdrop-filter: blur(5px);
+} */
+
+.brd {
+  transition: border-bottom 0.6s;
+  text-align: center;
+}
+
+.brd:hover {
+  border-bottom: 1px solid black;
+}
+
+.conten1 {
+  background-image: url("../image/home.jpg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: white; */
+}
+
+.mgt {
+  margin-top: 200px;
+}
+
+.mgt h1 {
+  border-bottom: 1px solid wheat;
+}
+
+.MyPorto p {
+  color: rgb(212, 206, 206);
+}
+
+@media (min-width: 992px) {
+  .about {
+    font-size: 20px;
+  }
+}
+.conten3 {
+  background-color: #ddd;
+}
+.conten3 h1 {
+  border-bottom: 1px solid #aaa;
+}
+.conten3 p {
+  color: #aaa;
+}
+
+.conten4 {
+  background-color: #1d809f;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.conten5 {
+  background-color: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.conten6 {
+  background-color: #ddd;
+  padding-top: 5rem;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.conten7 {
+  background-color: rgb(83, 71, 81);
+}
+
+.text p {
+  color: #756969;
+  margin-right: 350px;
+  border-bottom: 1px solid rgb(36, 33, 33);
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+
+.text p:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.contak p {
+  color: #756969;
+}
+
+.media a {
+  text-decoration: none;
+  color: #756969;
+  transition: all 0.5s;
+}
+
+.media a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.map {
+  height: 30rem;
+}
+.map iframe {
+  pointer-events: none;
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
